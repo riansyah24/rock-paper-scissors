@@ -1,0 +1,64 @@
+body {
+  color: white;
+}
+
+.com {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  border-radius: 8px;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: blue;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.com img,
+.player img {
+  display: none;
+  height: 150px;
+}
+
+img,
+h3 {
+  margin-top: 8px;
+}
+
+.button {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+button {
+  margin-left: 10px;
+  background: white;
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+button:hover {
+  background: black;
+  border: solid 1px white;
+  color: white;
+  cursor: pointer;
+}
+
+.note {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+h2 {
+  display: none;
+}

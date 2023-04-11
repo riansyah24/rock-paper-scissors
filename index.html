@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paper, rock, scissors</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://media.istockphoto.com/vectors/rock-paper-scissors-vector-illustration-vector-id1056840214?k=20&m=1056840214&s=612x612&w=0&h=NG6ZNvaujD7SlQFdeLxblIXzibx23zQJwZWe4Ue3LH0="
+    />
+  </head>
+  <body>
+    <!-- computer -->
+    <div class="com">
+      <h1>Computer</h1>
+      <img
+        src="https://www.pinclipart.com/picdir/big/574-5745173_rock-paper-scissors-clipart.png"
+        alt="comRock"
+        id="comRock"
+      />
+      <img
+        src="https://www.pinclipart.com/picdir/big/536-5360310_rock-paper-scissors-clip-art.png"
+        alt="comPaper"
+        id="comPaper"
+      />
+      <img
+        src="https://www.pinclipart.com/picdir/big/536-5360227_rock-paper-scissors-clip-art.png"
+        alt="comScissors"
+        id="comScissors"
+      />
+      <h3 id="comScore">0</h3>
+    </div>
+
+    <!-- player -->
+    <div class="player">
+      <h1>You</h1>
+      <img
+        src="https://www.pinclipart.com/picdir/big/574-5745173_rock-paper-scissors-clipart.png"
+        alt="playerRock"
+        id="playerRock"
+      />
+      <img
+        src="https://www.pinclipart.com/picdir/big/536-5360310_rock-paper-scissors-clip-art.png"
+        alt="comPaper"
+        id="playerPaper"
+      />
+      <img
+        src="https://www.pinclipart.com/picdir/big/536-5360227_rock-paper-scissors-clip-art.png"
+        alt="comScissors"
+        id="playerScissors"
+      />
+      <h3>0</h3>
+    </div>
+
+    <!-- Keterangan -->
+    <div class="note">
+      <h2 id="note">You Lose</h2>
+    </div>
+
+    <!-- button -->
+    <div class="button">
+      <button onclick="rock()">Rock</button>
+      <button onclick="paper()">Paper</button>
+      <button onclick="scissors()">Scissors</button>
+    </div>
+
+    <!-- javascript -->
+    <script src="main.js"></script>
+  </body>
+</html>
